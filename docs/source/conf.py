@@ -48,6 +48,15 @@ templates_path = ['_templates']
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = []
 
+# The document name of the “master” document, that is, the document that
+# contains the root toctree directive. Yet another attempt to have
+# readthedocs successfully building the docs. Per default readthedocs uses
+# sphinx in a version 1.8.5. In this version sphinx is expecting the "master"
+#  document to be called contents. Only since version 2.0 sphinx is using index
+# instead of contents. Consider specifying a newer sphinx version in the
+# requirements file within the sphinx configuration.
+master_doc = 'index'
+
 
 # -- Options for HTML output -------------------------------------------------
 
