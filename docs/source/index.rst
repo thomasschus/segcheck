@@ -34,7 +34,7 @@ Welcome to segcheck's documentation!
      <polyline points="150,90 150,95 170,95 170,90" style="fill:none;stroke:red;stroke-width:1" />
      </svg>
 
-In order to determine gaps and overlaps segcheck uses the comparison operators greater than :obj:`< <operator.lt>` and less than :obj:`> <operator.gt>`. Therefore, any python object (e.g. :obj:`float`, :obj:`datetime.datetime` or :obj:`str`) that can be compared using these operators, can be used to define the begin and the end of a segment.
+In order to determine gaps and overlaps segcheck uses the comparison operators less than :obj:`< <operator.lt>` and greater than :obj:`> <operator.gt>`. Therefore, any python object (e.g. :obj:`float`, :obj:`datetime.datetime` or :obj:`str`) that can be compared using these operators, can be used to define the begin and the end of a segment.
 
 Getting started
 ===============
