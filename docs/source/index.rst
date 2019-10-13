@@ -10,7 +10,7 @@ Welcome to segcheck's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-segcheck helps to find gaps and overlaps in linear segments.
+**segcheck** helps to find gaps and overlaps in linear segments.
 
 .. raw:: html
 
@@ -36,11 +36,6 @@ segcheck helps to find gaps and overlaps in linear segments.
 
 In order to determine gaps and overlaps segcheck uses the comparison operators greater than :obj:`< <operator.lt>` and less than :obj:`> <operator.gt>`. Therefore, any python object (e.g. :obj:`float`, :obj:`datetime.datetime` or :obj:`str`) that can be compared using these operators, can be used to define the begin and the end of a segment.
 
-Installation
-============
-
-Running ``pip install segcheck`` will install segcheck.
-
 Getting started
 ===============
 
@@ -49,51 +44,6 @@ Getting started
 
 .. automodule:: segcheck.exceptions
    :members:
-
-For developers
-==============
-
-Cloning the repository
-----------------------
-
-``git clone https://github.com/thomasschus/segcheck``
-
-Building the docs
------------------
-
-Docs are built using Sphinx. Within the docs directory, run ``make html``.
-
-Running the tests
------------------
-
-Within the tests directory run ``pytest`` or ``pytest -v`` for more verbose output.
-
-Within the docs directory run ``make doctest``.
-
-License
-=======
-
-MIT License
-
-Copyright (c) 2019 Thomas Schuster
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
 
 Indices and tables
 ==================
