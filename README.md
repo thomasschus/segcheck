@@ -1,6 +1,6 @@
 # segcheck
 
-[![PyPI version](https://badge.fury.io/py/segcheck.svg)](https://badge.fury.io/py/segcheck) [![Documentation Status](https://readthedocs.org/projects/segcheck/badge/?version=latest)](https://segcheck.readthedocs.io/en/latest/?badge=latest)
+[![PyPI version](https://badge.fury.io/py/segcheck.svg)](https://badge.fury.io/py/segcheck) [![Build Status](https://travis-ci.com/thomasschus/segcheck.svg?branch=master)](https://travis-ci.com/thomasschus/segcheck) [![Documentation Status](https://readthedocs.org/projects/segcheck/badge/?version=latest)](https://segcheck.readthedocs.io/en/latest/?badge=latest)
 
 **segcheck** helps to find gaps and overlaps in linear segments.
 
